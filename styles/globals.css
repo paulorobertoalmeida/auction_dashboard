@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sidebar-container {
+@apply md:flex flex-col md:flex-row md:min-h-screen w-full
+}
+
+nav {
+  @apply flex-grow md:block px-4 pb-4 md:pb-0 md:overflow-y-auto
+}
