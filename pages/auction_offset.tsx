@@ -1,13 +1,14 @@
 import React from 'react';
-import Footer from '../components/Footer'
+import Layout from '../components/Layout';
+
 
 
 const auction_offset: React.FC = () => {
-     return <div>
-        <h1>hello Auction</h1>
-        <Footer />
-     </div>
-    ;
+   return <Layout>
+      <h1>hello Auction</h1>
+      
+   </Layout>
+      ;
 }
 
 export default auction_offset;
